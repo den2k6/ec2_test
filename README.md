@@ -7,7 +7,10 @@
 
 ## 接続コマンド
 
-ssh -i "c:/users/den2k/.ssh/?????????.pem" ubuntu@ec2-35-153-231-144.compute-1.amazonaws.com
+* バージニア北部リージョン
+    * ssh -i "c:/users/den2k/.ssh/?????????.pem" ubuntu@ec2-35-153-231-144.compute-1.amazonaws.com
+* 東京リージョン
+    * ssh -i "c:/users/den2k/.ssh/?????????.pem" ubuntu@ec2-43-207-229-2.ap-northeast-1.compute.amazonaws.com
 
 ## 接続手順
 1. ターミナルまたはコマンドプロンプトを開く
